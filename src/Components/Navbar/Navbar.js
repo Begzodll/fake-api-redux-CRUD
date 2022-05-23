@@ -105,7 +105,7 @@ const Links = styled(NavLink)`
      transition: .5s all ease;
     `
   }
-`
+`;
 const Navbar = () => {
     const Link = [
         {
@@ -138,7 +138,6 @@ const Navbar = () => {
     const [width] = UseWindow()
 
     const [ click, setClick ] = useState(false)
-
     if (width > 767.9 && click === true) setClick(p => !p)
 
 
